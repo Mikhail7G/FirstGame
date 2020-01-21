@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{A8110B6D-19D5-4F68-8383-C4BCDA634242}</ProjectGuid>
+    <RootNamespace>DeepSpace</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>false</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\lc.props" />
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\masm.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>11.0.50727.1</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <IncludePath>C:\HGE\localRepository\game\libs\include\ZLIB;C:\HGE\localRepository\game\libs\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\HGE\localRepository\game\libs\libs;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <IncludePath>C:\HGE\localRepository\game\libs\include\ZLIB;C:\HGE\localRepository\game\libs\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\HGE\localRepository\game\libs\libs;$(LibraryPath)</LibraryPath>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <BrowseInformation>true</BrowseInformation>
+      <PreprocessorDefinitions>HGE_DIRECTX_VER=9;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_WIN32_WINNT=0x0501;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>hge.lib;hgehelp.lib;FreeImage.lib;FreeImagePlus.lib;zlib.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreSpecificDefaultLibraries>LIBC.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <TargetMachine>MachineX86</TargetMachine>
+      <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
+      <Profile>true</Profile>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+    </Link>
+    <Bscmake>
+      <PreserveSbr>true</PreserveSbr>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>false</IntrinsicFunctions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;HGE_DIRECTX_VER=9;HGE_UNICODE=;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_WIN32_WINNT=0x0501;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <CompileAs>CompileAsCpp</CompileAs>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+      <IgnoreSpecificDefaultLibraries>LIBC.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <AdditionalDependencies>hge.lib;hgehelp.lib;zlib.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <ImageHasSafeExceptionHandlers>true</ImageHasSafeExceptionHandlers>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="asterspawn.cpp" />
+    <ClCompile Include="bgobj.cpp" />
+    <ClCompile Include="bullcontainer.cpp" />
+    <ClCompile Include="bullets.cpp" />
+    <ClCompile Include="cargogui.cpp" />
+    <ClCompile Include="cargooper.cpp" />
+    <ClCompile Include="combatpanel.cpp" />
+    <ClCompile Include="damagetext.cpp" />
+    <ClCompile Include="Defenderbot.cpp" />
+    <ClCompile Include="DSguictr.cpp" />
+    <ClCompile Include="DSmainGUI.cpp" />
+    <ClCompile Include="dsmap.cpp" />
+    <ClCompile Include="effect.cpp" />
+    <ClCompile Include="explosions.cpp" />
+    <ClCompile Include="guicontrol.cpp" />
+    <ClCompile Include="hgedtool.cpp" />
+    <ClCompile Include="itemcore.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="menuitem.cpp" />
+    <ClCompile Include="gamecore.cpp" />
+    <ClCompile Include="bgcore.cpp" />
+    <ClCompile Include="gamer.cpp" />
+    <ClCompile Include="dsanim.cpp" />
+    <ClCompile Include="dsanimate.cpp" />
+    <ClCompile Include="dyncore.cpp" />
+    <ClCompile Include="asteroids.cpp" />
+    <ClCompile Include="pilot.cpp" />
+    <ClCompile Include="planets.cpp" />
+    <ClCompile Include="playerhud.cpp" />
+    <ClCompile Include="playerradar.cpp" />
+    <ClCompile Include="pradar.cpp" />
+    <ClCompile Include="projectilecpp.cpp" />
+    <ClCompile Include="radiushelp.cpp" />
+    <ClCompile Include="resiztable.cpp" />
+    <ClCompile Include="rudacore.cpp" />
+    <ClCompile Include="sector.cpp" />
+    <ClCompile Include="shipengine.cpp" />
+    <ClCompile Include="shiphull.cpp" />
+    <ClCompile Include="shipsupply.cpp" />
+    <ClCompile Include="spacefog.cpp" />
+    <ClCompile Include="tractoreff.cpp" />
+    <ClCompile Include="warpeff.cpp" />
+    <ClCompile Include="warship.cpp" />
+    <ClCompile Include="weapon.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="asterspawn.h" />
+    <ClInclude Include="bgobj.h" />
+    <ClInclude Include="bullcontainer.h" />
+    <ClInclude Include="bullets.h" />
+    <ClInclude Include="cargogui.h" />
+    <ClInclude Include="cargooper.h" />
+    <ClInclude Include="combatpanel.h" />
+    <ClInclude Include="damagetext.h" />
+    <ClInclude Include="Defenderbot.h" />
+    <ClInclude Include="DSguictr.h" />
+    <ClInclude Include="DSmainGUI.h" />
+    <ClInclude Include="dsmap.h" />
+    <ClInclude Include="effect.h" />
+    <ClInclude Include="explosion.h" />
+    <ClInclude Include="guicontrol.h" />
+    <ClInclude Include="hgedtool.h" />
+    <ClInclude Include="Itemcore.h" />
+    <ClInclude Include="menuitem.h" />
+    <ClInclude Include="gamecore.h" />
+    <ClInclude Include="bgcore.h" />
+    <ClInclude Include="gamer.h" />
+    <ClInclude Include="dsanim.h" />
+    <ClInclude Include="dsanimate.h" />
+    <ClInclude Include="dyncore.h" />
+    <ClInclude Include="asteroids.h" />
+    <ClInclude Include="pilot.h" />
+    <ClInclude Include="planets.h" />
+    <ClInclude Include="playerhud.h" />
+    <ClInclude Include="playerradar.h" />
+    <ClInclude Include="pradar.h" />
+    <ClInclude Include="projectile.h" />
+    <ClInclude Include="radiushelp.h" />
+    <ClInclude Include="resizlabel.h" />
+    <ClInclude Include="rudacore.h" />
+    <ClInclude Include="sector.h" />
+    <ClInclude Include="shipengine.h" />
+    <ClInclude Include="shipsupply.h" />
+    <ClInclude Include="shuphull.h" />
+    <ClInclude Include="spacefog.h" />
+    <ClInclude Include="tractoreff.h" />
+    <ClInclude Include="warpeff.h" />
+    <ClInclude Include="warship.h" />
+    <ClInclude Include="weapon.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\lc.targets" />
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\masm.targets" />
+  </ImportGroup>
+</Project>

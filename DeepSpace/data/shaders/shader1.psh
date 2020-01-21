@@ -1,0 +1,14 @@
+sampler2D g_samSrcColor;
+
+float4 ps_main( float2 Tex : TEXCOORD0 ) : COLOR0
+{
+    float4 Color;
+	Color = tex2D( g_samSrcColor, Tex.xy);
+    
+   if(Color.a<0.9f)
+{
+ Color.r=1.0f;	
+};
+
+    return Color;
+}

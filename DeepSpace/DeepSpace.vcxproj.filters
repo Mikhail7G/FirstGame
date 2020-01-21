@@ -1,0 +1,444 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Файлы исходного кода">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы исходного кода\MainController">
+      <UniqueIdentifier>{530f6bae-22a7-416b-a63f-dfe1b37f4b32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\MainController\BG">
+      <UniqueIdentifier>{00ea7ec9-9afa-4eba-979e-dd5be89b79ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\MainController\Player">
+      <UniqueIdentifier>{4b023681-bcfc-461f-a4ce-d819ef8fe856}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\Addons">
+      <UniqueIdentifier>{3a906d6c-c0a8-4d4e-a693-92d4bf476d8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\Dynamic">
+      <UniqueIdentifier>{7fe02f6f-f8d7-4ec6-9bec-319ef42fe4ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\Dynamic\dyn_core">
+      <UniqueIdentifier>{ee953f0d-2a05-4ceb-a6ea-a490001ef3a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\GameObjects">
+      <UniqueIdentifier>{008b626d-3028-46a3-965f-3b9c091e771d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\GameObjects\Space">
+      <UniqueIdentifier>{d59fa288-9a15-410a-9365-f29a8cdb54ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\GameObjects\Space\Asteroids">
+      <UniqueIdentifier>{26dcffa3-f144-4c77-9036-303e7978a177}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\GameObjects\Space\Ship">
+      <UniqueIdentifier>{93924d1f-9ea5-492f-acf4-c36a5b194597}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Файлы исходного кода\GameObjects\Items">
+      <UniqueIdentifier>{806f7e93-c2e5-4859-8b91-1d08584c0ade}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\GameObjects\Items\ShipItem">
+      <UniqueIdentifier>{a7d73bd5-db1a-4ef8-8f02-55fd8b8f0a93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\GameObjects\Items\ShipItem\HULL">
+      <UniqueIdentifier>{e31a1c39-6c77-422d-a5ad-dd9fc851c87f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\Core">
+      <UniqueIdentifier>{a1071bb2-56d6-4101-a888-aaf65de3aa36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\GameObjects\Weapons">
+      <UniqueIdentifier>{ed388954-cbd6-40a1-815d-907268f25d61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\GameObjects\Weapons\bullets">
+      <UniqueIdentifier>{8da60e09-58b2-4ce0-b49e-9d1518bcfef4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\GameObjects\Weapons\bullets\projectile">
+      <UniqueIdentifier>{661bdba0-1a13-4532-9ed6-f55329013468}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\Effects">
+      <UniqueIdentifier>{cf6ce2a6-ce19-4a0e-a5a8-932c47a4d50e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\Effects\effcore">
+      <UniqueIdentifier>{44ce420b-2909-4134-8f30-8e1030bdc47d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\Effects\explosions">
+      <UniqueIdentifier>{eb7dc553-a6a0-4453-bc4c-f2f1716b0790}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\Effects\Text">
+      <UniqueIdentifier>{2ec380c2-584e-40b5-bd4f-c5131cec4824}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\GameObjects\Space\Planets">
+      <UniqueIdentifier>{a149969f-cbe8-40df-be03-2d2a6cd25b16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\MainController\Sector">
+      <UniqueIdentifier>{e8db9318-9ae0-4d77-8e31-49400fa9f5b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\MainController\BG\smog">
+      <UniqueIdentifier>{06873cf3-0303-4f28-927e-b5557bff6db3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\MainController\BG\bgobjects">
+      <UniqueIdentifier>{c216a322-b993-4f0d-9965-acf925b57173}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\Effects\portal">
+      <UniqueIdentifier>{0bf2dc25-ab33-4b2c-a883-9c14f6606a33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\MainController\Spawners">
+      <UniqueIdentifier>{26641111-c476-4f46-9dcb-66bcb65ce817}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\MainController\Spawners\Asteroids">
+      <UniqueIdentifier>{df442b54-5251-4054-b72e-ea341f3024c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\GameObjects\Items\ShipItem\ENGINE">
+      <UniqueIdentifier>{6102dc77-61ce-4004-be79-a1253926f512}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\GameObjects\Items\ItemController">
+      <UniqueIdentifier>{f44aec9c-2312-47f4-9d79-569a75aa7918}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\MainController\ItemController">
+      <UniqueIdentifier>{d29eef50-84e8-4817-b529-014b98b6b8f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\GameObjects\Items\Ruda">
+      <UniqueIdentifier>{9f5d8187-7124-48a1-a4e0-9671f7e54f92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\Effects\tractorbeam">
+      <UniqueIdentifier>{d3c0ab4a-2935-4286-adc5-e76aea3d0437}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\Addons\anims">
+      <UniqueIdentifier>{131631ff-54c6-4711-97a0-d71b62185bc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\Addons\helpers">
+      <UniqueIdentifier>{5533ea40-08fc-4825-bc6c-ea2ada0b70d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\Effects\RadiusAlerts">
+      <UniqueIdentifier>{e09ea00a-3939-4226-9597-57c016f332c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\GameObjects\Items\bullets">
+      <UniqueIdentifier>{099ca9b2-fb5a-420b-808d-93e655c15541}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\GameObjects\Weapons\turret">
+      <UniqueIdentifier>{568b790f-68b4-4e46-a2dc-f8c86d13b011}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\MainController\HUD_OLD">
+      <UniqueIdentifier>{a9755d4f-f7f1-4208-af7e-dbb694657e80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\MainController\HUD_OLD\radar">
+      <UniqueIdentifier>{5aeb3948-c8e8-4cf9-97fc-6d96f7b2108e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\MainController\HUD_OLD\PlayerPanel">
+      <UniqueIdentifier>{85111d3a-6fe8-480b-8dfe-307f9f02b184}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\MainController\HUD_OLD\Controller">
+      <UniqueIdentifier>{2aedd51a-5bc8-405a-ad29-2bd200225108}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\MainController\GUI">
+      <UniqueIdentifier>{70455632-a866-4333-9d7c-44fe27420064}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\MainController\GUI\mainGUI">
+      <UniqueIdentifier>{97702521-ec6a-405b-9931-c26d876d20dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\MainController\GUI\GUI_ctr">
+      <UniqueIdentifier>{a8222979-b37f-4f68-98dc-ee539c5ffba9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\MainController\GUI\Cargo">
+      <UniqueIdentifier>{113b044d-0cbf-4a03-9762-10ee11d93c33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\MainController\GUI\ResizableLabel">
+      <UniqueIdentifier>{7cd4071e-2374-4b39-9b92-5cd2ba6616ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\MainController\GUI\Map">
+      <UniqueIdentifier>{ff7aa697-bd23-46db-a6a7-efde1fa1877d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\MainController\GUI\Radar">
+      <UniqueIdentifier>{c90e6f63-c826-4384-baa8-80e33e31cd8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\MainController\GUI\ShipParam">
+      <UniqueIdentifier>{25f3d145-584f-46a9-ab82-ac4d76875cd5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\MainController\GUI\CombatInfo">
+      <UniqueIdentifier>{c951a79e-c382-483c-be5b-10d5fad5393d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\MainController\AI Bots">
+      <UniqueIdentifier>{40355730-3f83-4a97-b7e2-f5b5ebecd279}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\MainController\AI Bots\Defender">
+      <UniqueIdentifier>{2f801018-7198-479f-be43-df624aea0709}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\MainController\AI Bots\Pilot">
+      <UniqueIdentifier>{bb16b4ac-1f7a-4d18-ab88-ed63314f1db8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Файлы исходного кода\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="menuitem.cpp">
+      <Filter>Файлы исходного кода\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="gamecore.cpp">
+      <Filter>Файлы исходного кода\MainController</Filter>
+    </ClCompile>
+    <ClCompile Include="bgcore.cpp">
+      <Filter>Файлы исходного кода\MainController\BG</Filter>
+    </ClCompile>
+    <ClCompile Include="gamer.cpp">
+      <Filter>Файлы исходного кода\MainController\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="dyncore.cpp">
+      <Filter>Файлы исходного кода\Dynamic\dyn_core</Filter>
+    </ClCompile>
+    <ClCompile Include="asteroids.cpp">
+      <Filter>Файлы исходного кода\GameObjects\Space\Asteroids</Filter>
+    </ClCompile>
+    <ClCompile Include="warship.cpp">
+      <Filter>Файлы исходного кода\GameObjects\Space\Ship</Filter>
+    </ClCompile>
+    <ClCompile Include="shiphull.cpp">
+      <Filter>Файлы исходного кода\GameObjects\Items\ShipItem\HULL</Filter>
+    </ClCompile>
+    <ClCompile Include="bullets.cpp">
+      <Filter>Файлы исходного кода\GameObjects\Weapons\bullets</Filter>
+    </ClCompile>
+    <ClCompile Include="projectilecpp.cpp">
+      <Filter>Файлы исходного кода\GameObjects\Weapons\bullets\projectile</Filter>
+    </ClCompile>
+    <ClCompile Include="pradar.cpp">
+      <Filter>Файлы исходного кода\MainController\HUD_OLD\radar</Filter>
+    </ClCompile>
+    <ClCompile Include="effect.cpp">
+      <Filter>Файлы исходного кода\Effects\effcore</Filter>
+    </ClCompile>
+    <ClCompile Include="explosions.cpp">
+      <Filter>Файлы исходного кода\Effects\explosions</Filter>
+    </ClCompile>
+    <ClCompile Include="damagetext.cpp">
+      <Filter>Файлы исходного кода\Effects\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="planets.cpp">
+      <Filter>Файлы исходного кода\GameObjects\Space\Planets</Filter>
+    </ClCompile>
+    <ClCompile Include="sector.cpp">
+      <Filter>Файлы исходного кода\MainController\Sector</Filter>
+    </ClCompile>
+    <ClCompile Include="spacefog.cpp">
+      <Filter>Файлы исходного кода\MainController\BG\smog</Filter>
+    </ClCompile>
+    <ClCompile Include="bgobj.cpp">
+      <Filter>Файлы исходного кода\MainController\BG\bgobjects</Filter>
+    </ClCompile>
+    <ClCompile Include="pilot.cpp">
+      <Filter>Файлы исходного кода\MainController\AI Bots\Pilot</Filter>
+    </ClCompile>
+    <ClCompile Include="warpeff.cpp">
+      <Filter>Файлы исходного кода\Effects\portal</Filter>
+    </ClCompile>
+    <ClCompile Include="asterspawn.cpp">
+      <Filter>Файлы исходного кода\MainController\Spawners\Asteroids</Filter>
+    </ClCompile>
+    <ClCompile Include="shipengine.cpp">
+      <Filter>Файлы исходного кода\GameObjects\Items\ShipItem\ENGINE</Filter>
+    </ClCompile>
+    <ClCompile Include="itemcore.cpp">
+      <Filter>Файлы исходного кода\GameObjects\Items\ItemController</Filter>
+    </ClCompile>
+    <ClCompile Include="playerhud.cpp">
+      <Filter>Файлы исходного кода\MainController\HUD_OLD\PlayerPanel</Filter>
+    </ClCompile>
+    <ClCompile Include="guicontrol.cpp">
+      <Filter>Файлы исходного кода\MainController\HUD_OLD\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="cargooper.cpp">
+      <Filter>Файлы исходного кода\MainController\ItemController</Filter>
+    </ClCompile>
+    <ClCompile Include="rudacore.cpp">
+      <Filter>Файлы исходного кода\GameObjects\Items\Ruda</Filter>
+    </ClCompile>
+    <ClCompile Include="tractoreff.cpp">
+      <Filter>Файлы исходного кода\Effects\tractorbeam</Filter>
+    </ClCompile>
+    <ClCompile Include="resiztable.cpp">
+      <Filter>Файлы исходного кода\MainController\GUI\ResizableLabel</Filter>
+    </ClCompile>
+    <ClCompile Include="dsanim.cpp">
+      <Filter>Файлы исходного кода\Addons\anims</Filter>
+    </ClCompile>
+    <ClCompile Include="dsanimate.cpp">
+      <Filter>Файлы исходного кода\Addons\anims</Filter>
+    </ClCompile>
+    <ClCompile Include="hgedtool.cpp">
+      <Filter>Файлы исходного кода\Addons\helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="radiushelp.cpp">
+      <Filter>Файлы исходного кода\Effects\RadiusAlerts</Filter>
+    </ClCompile>
+    <ClCompile Include="bullcontainer.cpp">
+      <Filter>Файлы исходного кода\GameObjects\Items\bullets</Filter>
+    </ClCompile>
+    <ClCompile Include="weapon.cpp">
+      <Filter>Файлы исходного кода\GameObjects\Weapons\turret</Filter>
+    </ClCompile>
+    <ClCompile Include="DSmainGUI.cpp">
+      <Filter>Файлы исходного кода\MainController\GUI\mainGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="DSguictr.cpp">
+      <Filter>Файлы исходного кода\MainController\GUI\GUI_ctr</Filter>
+    </ClCompile>
+    <ClCompile Include="cargogui.cpp">
+      <Filter>Файлы исходного кода\MainController\GUI\Cargo</Filter>
+    </ClCompile>
+    <ClCompile Include="dsmap.cpp">
+      <Filter>Файлы исходного кода\MainController\GUI\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="playerradar.cpp">
+      <Filter>Файлы исходного кода\MainController\GUI\Radar</Filter>
+    </ClCompile>
+    <ClCompile Include="shipsupply.cpp">
+      <Filter>Файлы исходного кода\MainController\GUI\ShipParam</Filter>
+    </ClCompile>
+    <ClCompile Include="combatpanel.cpp">
+      <Filter>Файлы исходного кода\MainController\GUI\CombatInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="Defenderbot.cpp">
+      <Filter>Файлы исходного кода\MainController\AI Bots\Defender</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="menuitem.h">
+      <Filter>Файлы исходного кода\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="gamecore.h">
+      <Filter>Файлы исходного кода\MainController</Filter>
+    </ClInclude>
+    <ClInclude Include="bgcore.h">
+      <Filter>Файлы исходного кода\MainController\BG</Filter>
+    </ClInclude>
+    <ClInclude Include="gamer.h">
+      <Filter>Файлы исходного кода\MainController\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="dyncore.h">
+      <Filter>Файлы исходного кода\Dynamic\dyn_core</Filter>
+    </ClInclude>
+    <ClInclude Include="asteroids.h">
+      <Filter>Файлы исходного кода\GameObjects\Space\Asteroids</Filter>
+    </ClInclude>
+    <ClInclude Include="warship.h">
+      <Filter>Файлы исходного кода\GameObjects\Space\Ship</Filter>
+    </ClInclude>
+    <ClInclude Include="shuphull.h">
+      <Filter>Файлы исходного кода\GameObjects\Items\ShipItem\HULL</Filter>
+    </ClInclude>
+    <ClInclude Include="bullets.h">
+      <Filter>Файлы исходного кода\GameObjects\Weapons\bullets</Filter>
+    </ClInclude>
+    <ClInclude Include="projectile.h">
+      <Filter>Файлы исходного кода\GameObjects\Weapons\bullets\projectile</Filter>
+    </ClInclude>
+    <ClInclude Include="pradar.h">
+      <Filter>Файлы исходного кода\MainController\HUD_OLD\radar</Filter>
+    </ClInclude>
+    <ClInclude Include="effect.h">
+      <Filter>Файлы исходного кода\Effects\effcore</Filter>
+    </ClInclude>
+    <ClInclude Include="explosion.h">
+      <Filter>Файлы исходного кода\Effects\explosions</Filter>
+    </ClInclude>
+    <ClInclude Include="damagetext.h">
+      <Filter>Файлы исходного кода\Effects\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="planets.h">
+      <Filter>Файлы исходного кода\GameObjects\Space\Planets</Filter>
+    </ClInclude>
+    <ClInclude Include="sector.h">
+      <Filter>Файлы исходного кода\MainController\Sector</Filter>
+    </ClInclude>
+    <ClInclude Include="spacefog.h">
+      <Filter>Файлы исходного кода\MainController\BG\smog</Filter>
+    </ClInclude>
+    <ClInclude Include="bgobj.h">
+      <Filter>Файлы исходного кода\MainController\BG\bgobjects</Filter>
+    </ClInclude>
+    <ClInclude Include="pilot.h">
+      <Filter>Файлы исходного кода\MainController\AI Bots\Pilot</Filter>
+    </ClInclude>
+    <ClInclude Include="warpeff.h">
+      <Filter>Файлы исходного кода\Effects\portal</Filter>
+    </ClInclude>
+    <ClInclude Include="asterspawn.h">
+      <Filter>Файлы исходного кода\MainController\Spawners\Asteroids</Filter>
+    </ClInclude>
+    <ClInclude Include="shipengine.h">
+      <Filter>Файлы исходного кода\GameObjects\Items\ShipItem\ENGINE</Filter>
+    </ClInclude>
+    <ClInclude Include="Itemcore.h">
+      <Filter>Файлы исходного кода\GameObjects\Items\ItemController</Filter>
+    </ClInclude>
+    <ClInclude Include="playerhud.h">
+      <Filter>Файлы исходного кода\MainController\HUD_OLD\PlayerPanel</Filter>
+    </ClInclude>
+    <ClInclude Include="guicontrol.h">
+      <Filter>Файлы исходного кода\MainController\HUD_OLD\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="cargooper.h">
+      <Filter>Файлы исходного кода\MainController\ItemController</Filter>
+    </ClInclude>
+    <ClInclude Include="rudacore.h">
+      <Filter>Файлы исходного кода\GameObjects\Items\Ruda</Filter>
+    </ClInclude>
+    <ClInclude Include="tractoreff.h">
+      <Filter>Файлы исходного кода\Effects\tractorbeam</Filter>
+    </ClInclude>
+    <ClInclude Include="resizlabel.h">
+      <Filter>Файлы исходного кода\MainController\GUI\ResizableLabel</Filter>
+    </ClInclude>
+    <ClInclude Include="dsanim.h">
+      <Filter>Файлы исходного кода\Addons\anims</Filter>
+    </ClInclude>
+    <ClInclude Include="dsanimate.h">
+      <Filter>Файлы исходного кода\Addons\anims</Filter>
+    </ClInclude>
+    <ClInclude Include="hgedtool.h">
+      <Filter>Файлы исходного кода\Addons\helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="radiushelp.h">
+      <Filter>Файлы исходного кода\Effects\RadiusAlerts</Filter>
+    </ClInclude>
+    <ClInclude Include="bullcontainer.h">
+      <Filter>Файлы исходного кода\GameObjects\Items\bullets</Filter>
+    </ClInclude>
+    <ClInclude Include="weapon.h">
+      <Filter>Файлы исходного кода\GameObjects\Weapons\turret</Filter>
+    </ClInclude>
+    <ClInclude Include="DSmainGUI.h">
+      <Filter>Файлы исходного кода\MainController\GUI\mainGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="DSguictr.h">
+      <Filter>Файлы исходного кода\MainController\GUI\GUI_ctr</Filter>
+    </ClInclude>
+    <ClInclude Include="cargogui.h">
+      <Filter>Файлы исходного кода\MainController\GUI\Cargo</Filter>
+    </ClInclude>
+    <ClInclude Include="playerradar.h">
+      <Filter>Файлы исходного кода\MainController\GUI\Radar</Filter>
+    </ClInclude>
+    <ClInclude Include="shipsupply.h">
+      <Filter>Файлы исходного кода\MainController\GUI\ShipParam</Filter>
+    </ClInclude>
+    <ClInclude Include="combatpanel.h">
+      <Filter>Файлы исходного кода\MainController\GUI\CombatInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="dsmap.h">
+      <Filter>Файлы исходного кода\MainController\GUI\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Defenderbot.h">
+      <Filter>Файлы исходного кода\MainController\AI Bots\Defender</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
