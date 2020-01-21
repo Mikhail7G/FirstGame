@@ -441,9 +441,4 @@
       <Filter>Файлы исходного кода\MainController\AI Bots\Defender</Filter>
     </ClInclude>
   </ItemGroup>
-  <ItemGroup>
-    <None Include="..\Debug\res.zip">
-      <Filter>Файлы ресурсов</Filter>
-    </None>
-  </ItemGroup>
 </Project>
