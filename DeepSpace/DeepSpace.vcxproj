@@ -196,6 +196,9 @@
     <ClInclude Include="warship.h" />
     <ClInclude Include="weapon.h" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Debug\res.zip" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
     <Import Project="$(VCTargetsPath)\BuildCustomizations\lc.targets" />
